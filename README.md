@@ -32,11 +32,7 @@ where $x_{it}$ is a vector of regressors, $\beta$ is the common regression param
 For the proposed FE procedure, the default transformation is first differencing,
 
 $$
-\Delta y_{it}
-=
-\Delta x_{it}^{\top}\beta
-+
-\Delta\varepsilon_{it}.
+\Delta y_{it} = \Delta x_{it}^{\top}\beta + \Delta\varepsilon_{it}.
 $$
 
 This removes the time-invariant individual effect exactly. Compared with conventional within demeaning, first differencing also limits the propagation of a contaminated unit-time observation to its adjacent transformed observations.
