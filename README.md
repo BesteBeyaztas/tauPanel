@@ -21,11 +21,11 @@ The main procedures are:
 
 Consider the balanced panel-data model
 
-\[
+$$
 y_{it}=x_{it}^{\top}\beta+\alpha_i+\varepsilon_{it},
 \qquad
 i=1,\ldots,N,\quad t=1,\ldots,T,
-\]
+$$
 
 where \(x_{it}\) is a vector of regressors, \(\beta\) is the common regression parameter, \(\alpha_i\) is an individual-specific effect, and \(\varepsilon_{it}\) is the idiosyncratic error.
 
