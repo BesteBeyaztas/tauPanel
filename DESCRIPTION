@@ -1,0 +1,33 @@
+Package: tauPanel
+Type: Package
+Title: Fast Tau Estimation for Fixed and Random Effects Panel Data Models
+Version: 1.0.0
+Authors@R: person(
+    "Beste Hamiye", "Beyaztas",
+    email = "beste.sertdemir@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0000-0002-6266-6487")
+  )
+Description: Implements robust fast Tau estimators for balanced linear panel
+    data models under fixed- and random-effects specifications. The
+    fixed-effects estimator is based by default on first differencing, which
+    eliminates time-invariant individual effects while limiting the propagation
+    of contaminated observations through the panel transformation. The
+    random-effects estimator uses a two-stage procedure combining a
+    difference-based fast Tau pilot fit, robust scale-based variance-component
+    estimation, residual-based observation weights, and robust quasi-demeaning.
+    Computation extends fast Tau regression through cluster-diverse randomized
+    starting subsamples and iterative reweighted least-squares refinement.
+    The package provides unified and model-specific fitting interfaces,
+    structural-mean prediction methods, computational controls, and simulation
+    tools for generating panel data under clean, vertical, leverage, and joint
+    contamination settings.
+Depends: R (>= 3.5.0)
+Imports:
+    robustbase,
+    stats,
+    utils
+License: GPL-3
+Encoding: UTF-8
+ByteCompile: true
+Config/roxygen2/version: 8.1.0

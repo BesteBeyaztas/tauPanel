@@ -1,0 +1,21 @@
+S3method(predict,fast_tau_fe_fit)
+S3method(predict,fast_tau_re_fit)
+
+export(fast_tau_control)
+export(fast_tau_fe)
+export(fast_tau_panel)
+export(fast_tau_re)
+export(generate_panel_data)
+
+importFrom(robustbase,Qn)
+
+importFrom(stats,median)
+importFrom(stats,predict)
+importFrom(stats,rchisq)
+importFrom(stats,rnorm)
+importFrom(stats,rt)
+importFrom(stats,runif)
+importFrom(stats,var)
+importFrom(stats, mad)
+
+importFrom(utils,combn)
