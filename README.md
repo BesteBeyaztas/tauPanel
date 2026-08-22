@@ -27,19 +27,19 @@ y_{it}=x_{it}^{\top}\beta+\alpha_i+\varepsilon_{it},
 i=1,\ldots,N,\quad t=1,\ldots,T,
 $$
 
-where $x_{it}$ is a vector of regressors, \(\beta\) is the common regression parameter, \(\alpha_i\) is an individual-specific effect, and \(\varepsilon_{it}\) is the idiosyncratic error.
+where $x_{it}$ is a vector of regressors, $\beta$ is the common regression parameter, $\alpha_i$ is an individual-specific effect, and $\varepsilon_{it}$ is the idiosyncratic error.
 
 ### Fixed effects
 
 For the proposed FE procedure, the default transformation is first differencing,
 
-\[
+$$
 \Delta y_{it}
 =
 \Delta x_{it}^{\top}\beta
 +
 \Delta\varepsilon_{it}.
-\]
+$$
 
 This removes the time-invariant individual effect exactly. Compared with conventional within demeaning, first differencing also limits the propagation of a contaminated unit-time observation to its adjacent transformed observations.
 
